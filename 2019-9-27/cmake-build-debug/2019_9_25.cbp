@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/miao/miao/CLionProjects/2019-9-27/InsertionSort.h">
+			<Option target="2019_9_25"/>
+		</Unit>
+		<Unit filename="/home/miao/miao/CLionProjects/2019-9-27/MergeSortHelper.h">
+			<Option target="2019_9_25"/>
+		</Unit>
 		<Unit filename="/home/miao/miao/CLionProjects/2019-9-27/main.cpp">
 			<Option target="2019_9_25"/>
 		</Unit>

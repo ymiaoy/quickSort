@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/miao/miao/CLionProjects/2019-9-27/InsertionSort.h
+iostream
+-
+algorithm
+-
+
+/home/miao/miao/CLionProjects/2019-9-27/MergeSortHelper.h
+iostream
+-
+algorithm
+-
+InsertionSort.h
+/home/miao/miao/CLionProjects/2019-9-27/InsertionSort.h
+
+/home/miao/miao/CLionProjects/2019-9-27/main.cpp
+iostream
+-
+algorithm
+-
+sortTestHelper.h
+/home/miao/miao/CLionProjects/2019-9-27/sortTestHelper.h
+MergeSortHelper.h
+/home/miao/miao/CLionProjects/2019-9-27/MergeSortHelper.h
+
+/home/miao/miao/CLionProjects/2019-9-27/sortTestHelper.h
+iostream
+-
+algorithm
+-
+string
+-
+ctime
+-
+cassert
+-
+

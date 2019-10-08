@@ -1,9 +1,10 @@
 #include <iostream>
 #include <algorithm>
 #include "sortTestHelper.h"
-
+#include "MergeSortHelper.h"
 using namespace std;
 using namespace SortTestHelper;
+using namespace MergeSortHelper;
 
 //mergeSortBU means "bottom up"
 template <typename T>
@@ -24,11 +25,14 @@ void mergeSortBU(T arr[], int n){
         }
     }
 }
-**********************************************************************
+//**********************************************************************
 //快速排序
-**********************************************************************
+//*********************************************************************
 //对arr[l,...,r]部分进行partition操作
 //返回一个索引值 p ， 使得arr[l...p-1] < arr[p]; arr[p] < arr[p+1...r]
+
+
+
 template <typename T>
 int __partition(T arr[], int l, int r)
 {
@@ -84,8 +88,18 @@ void quickSort(T arr[], int n)
 
 int main() {
 
+    int n = 1000000;
 
+    cout << "test for random array, size = " << n << "random range [0, " << n << "]" << endl;
+    int* arr1 = generateRandomArray(n, 0, n);
+    int* arr2 = copyIntArray(arr1, n);
 
+    testSort("merge sort", mergeSort, arr1, n);
+    testSort("quick sort", quickSort, arr2, n);
+
+    delete[] arr1;
+    delete[] arr2;
+    cout << endl;
 
 
 

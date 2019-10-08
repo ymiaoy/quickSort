@@ -3,4 +3,5 @@ project(2019_9_25)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(2019_9_25 main.cpp sortTestHelper.h)
+add_executable(2019_9_25 main.cpp sortTestHelper.h MergeSortHelper.h InsertionSort.h)
+
